@@ -17,21 +17,21 @@
 
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:textSize="42sp"
+            android:id="@+id/human"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/human"/>
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:textSize="42sp"
+            android:id="@+id/annoying"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/annoying"/>
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:textSize="42sp"
+            android:id="@+id/object"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -45,7 +45,7 @@
 
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:textSize="42sp"
+            android:id="@+id/animal"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -53,7 +53,7 @@
 
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:textSize="42sp"
+            android:id="@+id/satisfying"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -61,7 +61,7 @@
 
         <Button
             style="@style/Widget.AppCompat.Button"
-            android:textSize="42sp"
+            android:id="@+id/nature"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"

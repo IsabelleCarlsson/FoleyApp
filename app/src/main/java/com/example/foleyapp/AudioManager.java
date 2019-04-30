@@ -28,31 +28,45 @@ class AudioManager {
         switch (sound) {
             case BEE:
                 sampleId = R.raw.bee;
+                break;
             case CAN:
                 sampleId = R.raw.can;
+                break;
             case CAT:
                 sampleId = R.raw.cat;
+                break;
             case COUGH:
                 sampleId = R.raw.cough;
+                break;
             case COW:
                 sampleId = R.raw.cow;
+                break;
             case ENGINE:
                 sampleId = R.raw.engine;
+                break;
             case FROG:
                 sampleId = R.raw.frog;
+                break;
             case HAMMERING:
                 sampleId = R.raw.hammering;
+                break;
             case HELLO:
                 sampleId = R.raw.hello;
+                break;
             case PIG:
                 sampleId = R.raw.pig;
+                break;
             case SIGH:
                 sampleId = R.raw.sigh;
+                break;
             case VELCRO:
                 sampleId = R.raw.velcro;
+                break;
+            default:
+                sampleId = 0;
         }
 
-        soundPool.play(sampleId, 1, 1, 0, 0, 1);
+        soundPool.play(sampleId, 1, 1, 1, 0, 1);
     }
 
     void resume() {
