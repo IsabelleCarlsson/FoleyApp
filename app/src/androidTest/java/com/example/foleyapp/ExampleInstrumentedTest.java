@@ -22,6 +22,7 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         AudioManager audioManager = new AudioManager(appContext);
+
         audioManager.play(Sound.BEE);
     }
 }
