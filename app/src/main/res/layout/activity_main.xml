@@ -21,21 +21,17 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/human"/>
+            android:text="@string/human"
+            android:onClick="onButtonClick"/>
         <Button
             style="@style/Widget.AppCompat.Button"
             android:id="@+id/annoying"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/annoying"/>
-        <Button
-            style="@style/Widget.AppCompat.Button"
-            android:id="@+id/object"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/object"/>
+            android:text="@string/annoying"
+            android:onClick="onButtonClick"/>
+
     </TableRow>
 
     <TableRow
@@ -49,15 +45,8 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/animal"/>
-
-        <Button
-            style="@style/Widget.AppCompat.Button"
-            android:id="@+id/satisfying"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/satisfying" />
+            android:text="@string/animal"
+            android:onClick="onButtonClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button"
@@ -65,12 +54,10 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/nature" />
+            android:text="@string/ambient"
+            android:onClick="onButtonClick"/>
     </TableRow>
 
     </TableLayout>
-
-
-
 
 </android.support.v7.widget.LinearLayoutCompat>
